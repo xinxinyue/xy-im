@@ -1,0 +1,27 @@
+{
+    "name": "xinxinyue/im-frame",
+    "description": "xy-imframe kernel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xinxinyue",
+            "email": "546854479@qq.com"
+        }
+    ],
+    "require": {
+        "xinxinyue/imstart": "dev-master",
+        "firebase/php-jwt": "^5.1"
+    },
+    "repositories": {
+        "xinxinyue": {
+            "type": "path",
+            "url": "../imstart"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    }
+}
