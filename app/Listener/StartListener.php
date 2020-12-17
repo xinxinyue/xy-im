@@ -18,7 +18,7 @@ class StartListener extends Listener
                 $data=[
                     'method'     =>'register', //方法
                     'serviceName'=>'IM1',
-                    'ip'         => '39.97.240.83',
+                    'ip'         => '127.0.0.1',
                     'port'       => $swoStarServer->getPort()
                 ];
                 $cli->push(json_encode($data));
